@@ -1,6 +1,7 @@
 package ecommerce.springboot.microservice.productservice.controller;
 
 import ecommerce.springboot.microservice.productservice.entity.Product;
+import ecommerce.springboot.microservice.productservice.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
